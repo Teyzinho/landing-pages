@@ -1,8 +1,14 @@
 export const theme = {
   colors: {
-    mainBg: 'red',
-    secondaryBg: 'blue',
+    primary: '#0A1128',
+    secondary: '#dc143c',
+    white: '#FFFFFF',
   },
-  fonts: {},
+  fonts: {
+    family: {
+      primary: "'Open Sans', sans-serif",
+      secondary: "'Montserrat', sans-serif",
+    },
+  },
   spacings: {},
 };
