@@ -3,14 +3,14 @@ import * as Styled from './styles';
 
 export const Heading = ({
   children,
-  colorDark = true,
+  color_dark = true,
   as = 'h1',
   size = 'huge',
   uppercase = false,
 }) => {
   return (
     <Styled.Title
-      colorDark={colorDark}
+      color_dark={color_dark}
       as={as}
       size={size}
       uppercase={uppercase}
@@ -22,7 +22,7 @@ export const Heading = ({
 
 Heading.propTypes = {
   children: P.node.isRequired,
-  colorDark: P.bool,
+  color_dark: P.bool,
   as: P.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']),
   size: P.oneOf(['small', 'medium', 'big', 'huge']),
   uppercase: P.bool,
