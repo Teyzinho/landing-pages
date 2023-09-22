@@ -39,66 +39,64 @@ exports[`<NavLinks /> > should match snapshot 1`] = `
   }
 }
 
-<div>
-  <nav
-    class="c0"
+<nav
+  class="c0"
+>
+  <a
+    class="c1"
+    href="#link1"
+    target="_self"
   >
-    <a
-      class="c1"
-      href="#link1"
-      target="_self"
-    >
-      Link 1
-    </a>
-    <a
-      class="c1"
-      href="#link2"
-      target="_self"
-    >
-      Link 2
-    </a>
-    <a
-      class="c1"
-      href="#link3"
-      target="_self"
-    >
-      Link 3
-    </a>
-    <a
-      class="c1"
-      href="#link4"
-      target="_self"
-    >
-      Link 4
-    </a>
-    <a
-      class="c1"
-      href="#link5"
-      target="_self"
-    >
-      Link 5
-    </a>
-    <a
-      class="c1"
-      href="#link6"
-      target="_self"
-    >
-      Link 6
-    </a>
-    <a
-      class="c1"
-      href="#link7"
-      target="_self"
-    >
-      Link 7
-    </a>
-    <a
-      class="c1"
-      href="#link8"
-      target="_self"
-    >
-      Link 8
-    </a>
-  </nav>
-</div>
+    Link 1
+  </a>
+  <a
+    class="c1"
+    href="#link2"
+    target="_self"
+  >
+    Link 2
+  </a>
+  <a
+    class="c1"
+    href="#link3"
+    target="_self"
+  >
+    Link 3
+  </a>
+  <a
+    class="c1"
+    href="#link4"
+    target="_self"
+  >
+    Link 4
+  </a>
+  <a
+    class="c1"
+    href="#link5"
+    target="_self"
+  >
+    Link 5
+  </a>
+  <a
+    class="c1"
+    href="#link6"
+    target="_self"
+  >
+    Link 6
+  </a>
+  <a
+    class="c1"
+    href="#link7"
+    target="_self"
+  >
+    Link 7
+  </a>
+  <a
+    class="c1"
+    href="#link8"
+    target="_self"
+  >
+    Link 8
+  </a>
+</nav>
 `;
