@@ -8,8 +8,8 @@ const backgroundActivate = (theme) => css`
 export const Container = styled.div`
   ${({ theme, background }) => css`
     background: ${theme.colors.white};
-    color: ${theme.colors.primary};
-    ${background && backgroundActivate(theme)}
+    color: ${theme.colors.primaryColor};
+    ${background && backgroundActivate(theme)};
     min-height: 100vh;
     display: flex;
     align-items: center;

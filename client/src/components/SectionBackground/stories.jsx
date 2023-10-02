@@ -22,9 +22,5 @@ export default {
 };
 
 export const Template = (args) => {
-  return (
-    <div>
-      <SectionBackground {...args} />
-    </div>
-  );
+  return <SectionBackground {...args} />;
 };
