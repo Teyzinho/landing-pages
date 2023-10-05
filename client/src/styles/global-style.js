@@ -36,4 +36,9 @@ export const GlobalStyles = createGlobalStyle`
   a {
     color: ${({ theme }) => theme.colors.secondary};
   }
+
+  table {
+    width: 100%;
+    overflow-y: auto;
+  }
 `;
