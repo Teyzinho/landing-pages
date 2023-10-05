@@ -5,6 +5,7 @@ import { Base } from '../Base';
 import { mapData } from '../../api/map-data';
 import { mockBase } from '../Base/stories';
 import { PageNotFound } from '../PageNotFound';
+import { Loading } from '../Loading';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -20,6 +21,7 @@ function Home() {
         const json = await data.json();
         const { attributes } = json.data[0];
         const pageData = mapData([attributes]);
+
         setData(() => pageData[0]);
       } catch (error) {
         setData(undefined);
@@ -40,7 +42,7 @@ function Home() {
   }
 
   if (data && !data.slug) {
-    return <h1>Carregando...</h1>;
+    return <Loading />;
   }
 
   return <Base {...mockBase} />;
