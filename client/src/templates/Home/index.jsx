@@ -26,7 +26,7 @@ function Home() {
       try {
         console.log('fetching');
         const data = await fetch(
-          `http://localhost:1338/api/pages/?filters[slug]=${slug}&populate=deep`,
+          `https://landing-pages-server.onrender.com/api/pages/?filters[slug]=${slug}&populate=deep`,
         );
         const json = await data.json();
         const { attributes } = json.data[0];
